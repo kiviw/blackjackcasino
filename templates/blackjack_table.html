@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blackjack Table</title>
-    <link rel="stylesheet" href="css/style.css"> <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="css/style.css">
     <style>
         /* Add additional CSS styling here */
         body {
@@ -49,13 +49,11 @@
         <!-- Dealer's Hand -->
         <h2>Dealer's Hand</h2>
         <div class="hand" id="dealer-hand">
-            <!-- Card elements for the dealer's hand will be dynamically generated here -->
         </div>
 
         <!-- Player's Hand -->
         <h2>Your Hand</h2>
         <div class="hand" id="player-hand">
-            <!-- Card elements for the player's hand will be dynamically generated here -->
         </div>
 
         <!-- Game Result -->
@@ -63,12 +61,12 @@
 
         <!-- Action Buttons (e.g., Hit, Stand) -->
         <div class="actions">
-            <button id="hit" onclick="hit()">Hit</button>
-            <button id="stand" onclick="stand()">Stand</button>
-            <button id="deal" onclick="deal()">Deal</button>
+            <button id="hitButton" disabled>Hit</button>
+            <button id="standButton" disabled>Stand</button>
+            <button id="dealButton">Deal</button>
         </div>
     </div>
 
-    <script src="js/main.js"></script> <!-- Link to your JavaScript file -->
+    <script src="js/main.js"></script>
 </body>
 </html>
