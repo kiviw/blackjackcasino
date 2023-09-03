@@ -1,0 +1,50 @@
+- root_folder/
+  - database_config/
+    - config.php (Database configuration file)
+    - database_schema.sql (Database schema for tables)
+    - db_connection.php (Database connection setup)
+    - db_queries.php (Database queries and functions)
+  - game_logic/
+    - blackjack.php (Game logic for Blackjack)
+    - game.php (Game-related logic)
+  - admin_panel/
+    - admin.php (Main admin panel)
+    - dashboard.php (Admin dashboard)
+    - user_management.php (User management)
+    - game_management.php (Game management)
+    - settings.php (Admin settings)
+    - logs.php (Admin logs)
+    - security.php (Security settings)
+    - backup.php (Backup management)
+    - logout.php (Admin logout)
+  - websocket/
+    - chat_server.php (WebSocket server for chat)
+  - templates/
+    - header.html (Header template)
+    - footer.html (Footer template)
+    - blackjack_table.html (Blackjack table template)
+    - chat_interface.html (Chat interface template)
+    - game.html (Game interface template)
+  - css/
+    - style.css (Main CSS file)
+  - images/
+    - cards/
+      - (card images go here)
+    - (other image assets)
+  - js/
+    - main.js (Main JavaScript file)
+  - uploads/
+    - (user uploads, if needed)
+  - user/
+    - login.php (User login form)
+    - register.php (User registration form)
+  - index.php (Main landing page)
+  - auth.php (Authentication functions for login and registration)
+  - recover_password.php (Password recovery page)
+  - pgp_functions.php (PGP-related functions file)
+  - monero_integration/
+    - monero_rpc.php (Integration with Monero RPC)
+    - monero_config.php (Configuration with API key and endpoint)
+  - cron_jobs/
+    - check_deposits.php (Script to periodically check for deposits)
+    
