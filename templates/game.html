@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Monero Blackjack</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Monero Blackjack</h1>
+    
+    <!-- Display player's balance and allow them to place a bet -->
+    <div class="balance-container">
+        <p>Balance: <span id="playerBalance">10.00 XMR</span></p>
+        <button id="decreaseBet">-</button>
+        <input type="number" id="betAmount" min="0.01" max="1000" step="0.01" value="0.01" required>
+        <button id="increaseBet">+</button>
+        <button id="placeBet">Place Bet</button>
+    </div>
 
+    <!-- Display player's and dealer's hands with card images -->
+    <div class="hands-container">
+        <div class="player-hand">
+            <h2>Your Hand</h2>
+            <div id="playerCards"></div>
+        </div>
+        <div class="dealer-hand">
+            <h2>Dealer's Hand</h2>
+            <div id="dealerCards"></div>
+        </div>
+    </div>
+
+    <!-- Display game result and action buttons (Hit and Stand) -->
+    <div class="game-result">
+        <p id="gameMessage">Place your bet and click "Deal" to start.</p>
+        <button id="hitButton" disabled>Hit</button>
+        <button id="standButton" disabled>Stand</button>
+        <button id="dealButton">Deal</button>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
