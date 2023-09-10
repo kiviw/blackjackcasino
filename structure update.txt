@@ -31,11 +31,13 @@
     - (other image assets)
   - js/
     - main.js (Main JavaScript file)
+    - dashboard.js
   - uploads/
     - (user uploads, if needed)
   - user/
     - login.php (User login form)
     - register.php (User registration form)
+    - dashboard.php
   - index.php (Main landing page)
   - auth.php (Authentication functions for login and registration)
   - recover_password.php (Password recovery page)
